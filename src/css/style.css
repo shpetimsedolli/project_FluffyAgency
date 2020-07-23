@@ -1,0 +1,22 @@
+body {
+  background: #f4f6f7;
+}
+.container {
+  position: relative;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.headerWrap {
+  margin-top: 40px;
+}
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_wrapper ul {
+  display: flex;
+}
+.nav_wrapper ul li {
+  margin-left: 32px;
+}
