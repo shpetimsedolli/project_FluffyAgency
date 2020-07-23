@@ -20,3 +20,17 @@ body {
 .nav_wrapper ul li {
   margin-left: 32px;
 }
+.main_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.main_wrap button {
+  margin-top: 430px;
+  width: 336px;
+  height: 60px;
+  background-color: #ff7f57;
+  color: #ffffff;
+}
+.main_wrap img {
+  margin-top: 150px;
+}
