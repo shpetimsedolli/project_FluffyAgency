@@ -34,3 +34,48 @@ body {
 .main_wrap img {
   margin-top: 150px;
 }
+.agency_theme {
+  background-color: #fff;
+}
+.agency__wrapper {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.services_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services_text a {
+  text-decoration: none;
+  color: #2557ab;
+}
+.services_text h1 {
+  font-size: 38px;
+  color: #13253a;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.text_boxeswrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.text_boxes {
+  text-align: center;
+  padding-right: 65px;
+  padding-left: 15px;
+}
+.text_boxes h3 {
+  font-size: 20px;
+  padding-top: 25px;
+  font-weight: bold;
+}
+.text_boxes p {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 27px;
+}
