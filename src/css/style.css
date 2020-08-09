@@ -217,6 +217,42 @@ body {
   color: #fff;
   margin-bottom: 40px;
 }
+.help_section {
+  background-color: #ff7f57;
+}
+.help_wrapper {
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 770px;
+  margin: 0 auto;
+}
+.help_wrapper h1 {
+  font-size: 46px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.help_wrapper p {
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.help_wrapper button {
+  width: 336px;
+  height: 60px;
+  background-color: #2557ab;
+  color: #fff;
+  border: none;
+  outline: 0;
+  transition: 0.5s;
+  font-size: 17px;
+}
+.help_wrapper button:hover {
+  background-color: #fff;
+  color: #2557ab;
+  cursor: pointer;
+}
 .contact_form {
   background-color: #11364e;
 }
