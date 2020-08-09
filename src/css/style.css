@@ -96,3 +96,28 @@ body {
   padding-top: 10px;
   line-height: 27px;
 }
+.years_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.years_text {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.years_text h1 {
+  color: #13253a;
+  font-size: 46px;
+  margin-bottom: 15px;
+}
+.years_text h1 span {
+  color: #ff7f57;
+}
+.years_text p {
+  color: #2557ab;
+}
+.years_wrapper div:first-child {
+  margin-right: 125px;
+}
+.years_wrapper div:last-child {
+  margin-left: 175px;
+}
