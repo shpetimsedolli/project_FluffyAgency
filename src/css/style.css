@@ -311,3 +311,14 @@ body {
   color: #ffff;
   cursor: pointer;
 }
+.footerWrap {
+  display: flex;
+  background-color: #13253a;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.footerWrap p {
+  color: #fff;
+  font-size: 12px;
+}
