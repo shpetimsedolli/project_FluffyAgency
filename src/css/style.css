@@ -20,9 +20,16 @@ body {
 .nav_wrapper ul li {
   margin-left: 32px;
 }
+.nav_wrapper ul li a {
+  color: #13253a;
+  text-decoration: none;
+  font-weight: 600;
+}
 .main_wrap {
   display: flex;
   justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 .main_wrap button {
   margin-top: 430px;
@@ -30,9 +37,19 @@ body {
   height: 60px;
   background-color: #ff7f57;
   color: #ffffff;
+  outline: 0;
+  border: none;
+  font-size: 17px;
+  transition: 0.3s ease-in;
+}
+.main_wrap button:hover {
+  background-color: #ffffff;
+  color: #ff7f57;
+  cursor: pointer;
 }
 .main_wrap img {
   margin-top: 150px;
+  padding-bottom: 178px;
 }
 .agency_theme {
   background-color: #fff;
