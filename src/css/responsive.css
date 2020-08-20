@@ -1,0 +1,162 @@
+@media only screen and (max-width: 767px) {
+    .headerWrap {
+        margin-top: 20px;
+    }
+    .nav_wrapper ul li {
+        margin-left: 5px;
+    }
+    .main_wrap {
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .main_wrap button {
+        padding: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .main_wrap img {
+        margin-top: 10px;
+        padding: 0;
+    }
+    .agency__wrapper {
+        padding-top: 50px;
+    }
+    .services_text h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .text_boxeswrapper {
+        display: block;
+        width: 100%;
+    }
+    .text_boxes ,
+    .text_boxes h3 {
+        padding: 0;
+    }
+    .text_boxes img {
+        padding-top: 10px;
+    }
+    .years_wrapper {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .years_text ,
+    .years_wrapper div:first-child ,
+    .years_wrapper div:last-child{
+        padding-top: 10px;
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .title_textwrapper p {
+        padding-top: 50px;
+    }
+    .about_logos {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    .about_logos img {
+        padding-bottom: 10px;
+    }
+    .line {
+        margin-bottom: 50px;
+    }
+    .relax_wrapper {
+        flex-direction: column;
+    }
+    .left__side h1 {
+        text-align: center;
+        width: auto;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .left__side p {
+        text-align: center;
+    }
+    .image_relaxing {
+        max-width: -webkit-fill-available;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .help_wrapper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .help_wrapper h1 {
+        font-size: 25px;
+    }
+    .help_wrapper button {
+        width: 100%;
+    }
+    .form_wrapper {
+        padding: 50px 0;
+        align-items: unset;
+    }
+    .form_wrapper h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .submit__form {
+        margin-top: 0;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .main_wrap {
+        display: flex;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .main_wrap button {
+        padding: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .main_wrap img {
+        margin-top: 10px;
+        padding: 0;
+    }
+    .agency__wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .services_text h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .text_boxes {
+        padding: 0;
+    }
+    .text_boxes h3 {
+        padding: 0;
+    }
+    .text_boxes img {
+        padding-top: 10px;
+    }
+    .title_textwrapper p {
+        padding-top: 50px;
+    }
+    .about_logos {
+        margin-top: 60px;
+        padding-bottom: 30px;
+    }
+    .line {
+        margin-bottom: 30px;
+    }
+    .relax_wrapper {
+        flex-direction: column;
+    }
+    .left__side h1 {
+        width: 100%;
+        text-align: center;
+    }
+    .help_wrapper {
+        width: unset;
+    }
+}
+   
